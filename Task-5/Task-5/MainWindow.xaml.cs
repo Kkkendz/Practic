@@ -49,13 +49,6 @@ namespace Task_5
                 return Math.Round(value1 / value2, 4);
             }
         }
-
-        private void Next_Click(object sender, RoutedEventArgs e)
-        {
-            Window1 window1 = new Window1();
-            window1.Show();
-            Close();
-        }
         private void ResultButton_Click(object sender, RoutedEventArgs e)
         {
             try
@@ -83,6 +76,12 @@ namespace Task_5
             {
                 MessageBox.Show("Неккоректный ввод данных", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+        private void Next_Click(object sender, RoutedEventArgs e)
+        {
+            Window1 window1 = new Window1();
+            window1.Show();
+            Close();
         }
     }
 }

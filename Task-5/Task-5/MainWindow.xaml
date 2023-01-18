@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Task_5"
         mc:Ignorable="d"
-        Title="Первое задание" Height="450" Width="800">
+        Title="1" Height="450" Width="800">
     <Grid>
         <TextBox x:Name="Value_1" HorizontalAlignment="Left" Height="98" Margin="44,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="173" Background="#FFF0BD12" FontSize="20" FontWeight="Bold"/>
         <TextBox x:Name="Value_2" HorizontalAlignment="Left" Height="98" Margin="337,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Background="#FFF0BD12" FontSize="20" FontWeight="Bold"/>

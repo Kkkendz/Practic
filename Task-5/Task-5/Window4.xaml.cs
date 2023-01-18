@@ -26,8 +26,6 @@ namespace Task_5
         {
             InitializeComponent();
         }
-       
-       
         private void Factorial(int value)
         {
             if (i < n)
@@ -39,9 +37,9 @@ namespace Task_5
             else
             {
                 MessageBox.Show(result.ToString());
-
+                
             }
-
+            
         }
         private void ResultButton_Click(object sender, RoutedEventArgs e)
         {
@@ -60,5 +58,4 @@ namespace Task_5
             }
         }
     }
-
 }
